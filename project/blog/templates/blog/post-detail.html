@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}post detail{% endblock %}
+
+{% block header_reference %}
+<link rel="stylesheet" href="{% static 'blog/index.css' %}">
+<link rel="stylesheet" href="{% static 'blog/post-detail.css' %}">
+{% endblock %}
+
+{% block content %}
+<section id="summary">
+    <h2>post title</h2>
+    <article>
+        <img src="{% static 'blog/images/django.png' %}" alt="post image alt">
+        <address>By Toplearn</address>
+        <div>
+            last updated on
+            <time>July 20th</time>
+        </div>
+    </article>
+</section>
+
+<main>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, molestias quam quasi repudiandae
+        voluptatibus! Aspernatur aut autem eos et eum, fuga iste modi obcaecati odio officiis quo temporibus
+        voluptas!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, molestias quam quasi repudiandae
+        voluptatibus! Aspernatur aut autem eos et eum, fuga iste modi obcaecati odio officiis quo temporibus
+        voluptas!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, molestias quam quasi repudiandae
+        voluptatibus! Aspernatur aut autem eos et eum, fuga iste modi obcaecati odio officiis quo temporibus
+        voluptas!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, molestias quam quasi repudiandae
+        voluptatibus! Aspernatur aut autem eos et eum, fuga iste modi obcaecati odio officiis quo temporibus
+        voluptas!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi, molestias quam quasi repudiandae
+        voluptatibus! Aspernatur aut autem eos et eum, fuga iste modi obcaecati odio officiis quo temporibus
+        voluptas!
+    </p>
+</main>
+{% endblock %}
+
+{% block footer_references %}{% endblock %}
